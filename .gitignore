@@ -1,0 +1,5 @@
+# Exclude Nodejs Modules
+/node_modules
+
+# Exclude Environment Variables
+.env

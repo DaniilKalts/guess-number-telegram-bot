@@ -1,0 +1,37 @@
+{
+  "name": "guess-number-telegram-bot",
+  "version": "1.0.0",
+  "description": "A guess number telegram bot.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "db": "nodemon db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniilKalts/telegram-bots.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node-telegram-bot-api",
+    "Javascript",
+    "mssql",
+    "telegram",
+    "bot"
+  ],
+  "author": "Daniil Kalts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniilKalts/telegram-bots/issues"
+  },
+  "homepage": "https://github.com/DaniilKalts/telegram-bots#readme",
+  "dependencies": {
+    "@sequelize/mssql": "^7.0.0-alpha.40",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.65.1",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
